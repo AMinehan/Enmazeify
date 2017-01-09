@@ -1,0 +1,16 @@
+{
+  "name": "enmazeify",
+  "version": "1.0.1",
+  "description": "Displays a randomized maze",
+  "author": "David Minehan <soloin@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": { "node": ">=4.0.0" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "request": "^2.36.0"
+  }
+}
